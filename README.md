@@ -4,13 +4,24 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Tokoto mobile application built with Flutter, a popular framework for developing cross-platform applications. 
+Key Features:
+Product Display:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app displays a list of popular products on the home screen.
+Each product is represented by a card containing essential details such as image, title, price, and a brief description.
+Navigation:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Users can tap on a product card to view more details on a dedicated screen (implemented in DetailsScreen).
+The "See More" button suggests the possibility of navigating to a broader product catalog or a dedicated page for more products.
+Favorite Products:
+
+Users can mark products as favorites by interacting with the heart icon on each product card (handled in the onFavoriteChanged callback).
+This implies a feature where users can create a list of their favorite products.
+Scalability:
+
+The code is structured to handle a dynamic list of products, allowing for scalability as the product catalog expands.
+API Integration (Potentially):
+
+Although not explicitly implemented in the provided code, the app could fetch product data from an external API (e.g., using the http package) to keep product information up-to-date.
